@@ -78,6 +78,8 @@ main{
     flex-direction: column;
     justify-content: space-between;
     gap: 1.5rem;
+    border: 1px solid red;margin-bottom: 5rem;
+
 }
 .mld-p{
     font-weight: 800;
@@ -132,9 +134,42 @@ span + span{
 }
 .main-right-div{
     width: 30.6rem;
-    height: 31.9rem;
-    /* padding: 2rem 0 0 2rem; */
+    height: 34.9rem;
 }
-.main-right-div{
-    background-image: url(/images/image.png);
+.three-lines-vec{
+    position: absolute;
+    z-index: 2;
+    /* border: 1px solid red; */
+}
+.vec1{
+    top: 6.5rem;
+    left: 47rem;
+}
+.vec2{
+    top: 9rem;
+    left: 45.5rem;
+}
+.vec3{
+    top: 13rem;
+    left: 46rem;
+}
+.vec4{
+    top: 12rem;
+    left: 72rem;
+}
+.vec5{
+    top: 8rem;
+    left: 65rem;
+}
+.vec6{
+    width: 20%;
+    top: 28rem;
+    left: 55.8rem;
+    border-radius: 20px;
+}
+.main-right-div .site-img{
+    width: 27%;
+    z-index: 1;
+    position: absolute;
+    border-radius: 20px;
 }
